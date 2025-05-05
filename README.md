@@ -1,2 +1,23 @@
-# DevPulse-CI-CD-Performance-Dashboard
-A real-time monitoring dashboard for CI/CD pipelines using Prometheus, Grafana, and GitHub Actions. Logged deployment frequency, test pass rates, and time-to-rollback metrics across multiple microservices
+# DevPulse: CI/CD Monitoring Dashboard
+
+Simulated CI/CD performance metrics visualized with Prometheus and Grafana.
+
+## Features
+- Simulates deployment, test pass/fail, and recovery metrics.
+- Prometheus scrapes the metrics.
+- Grafana dashboard for visualization.
+
+## Setup
+
+### Requirements
+- Docker
+- Docker Compose
+
+### Run
+```bash
+docker-compose up --build
+```
+
+Visit:
+- Prometheus: http://localhost:9090
+- Grafana: http://localhost:3000 (Login: admin / admin)
